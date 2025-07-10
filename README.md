@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshot.png" alt="XTools Screenshot" width="600"/>
+  <img src="banner.jpg" alt="XTools Screenshot" width="600"/>
 </p>
 
 <h1 align="center">🧰 XTools</h1>
