@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.jpg" alt="Twibby Logo" width="180" height="180" style="border-radius: 20px;">
+  <img src="20250808_170912.jpg" alt="Twibby Logo" width="180" height="180" style="border-radius: 20px;">
 </p>
 
 <h1 align="center">🚀 Twibby</h1>
