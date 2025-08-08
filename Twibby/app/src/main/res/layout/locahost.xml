@@ -1,0 +1,66 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Web2Pdf Aracı v1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#696BE6" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#696BE6"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:hint="Web Site Urlsi"
+				android:textColorHint="#FFFFFF"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:src="@drawable/ic_search_black"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:padding="8dp"
+			android:background="#696BE6"
+			android:text="PDF Olarak Yazdır"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<WebView
+			android:id="@+id/webview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</LinearLayout>
+</LinearLayout>

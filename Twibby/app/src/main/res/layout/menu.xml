@@ -1,0 +1,981 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear134"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:id="@+id/bg"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:background="#EEEEEE"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal"
+			android:layout_weight="1">
+			<LinearLayout
+				android:id="@+id/linear54"
+				android:layout_width="20dp"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<LinearLayout
+					android:id="@+id/linear58"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview16"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Seni Görmek Ne Güzel !"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#000000" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear7"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview71"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="t.me/versabest"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#696BE6" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear60"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="left"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview17"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Kendimi Şanslı Hissediyorum"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#000000" />
+				</LinearLayout>
+				<HorizontalScrollView
+					android:id="@+id/hscroll1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp">
+					<LinearLayout
+						android:id="@+id/linear61"
+						android:layout_width="match_parent"
+						android:layout_height="130dp"
+						android:padding="8dp"
+						android:orientation="horizontal">
+						<LinearLayout
+							android:id="@+id/pizaa"
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview15"
+								android:layout_width="75dp"
+								android:layout_height="60dp"
+								android:src="@drawable/encryot"
+								android:scaleType="centerInside" />
+							<TextView
+								android:id="@+id/textview19"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="Encrypt-Decrypt"
+								android:textSize="12sp"
+								android:textStyle="bold"
+								android:textColor="#000000" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear64"
+							android:layout_width="10dp"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/burger"
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview17"
+								android:layout_width="75dp"
+								android:layout_height="60dp"
+								android:src="@drawable/ses"
+								android:scaleType="fitCenter" />
+							<TextView
+								android:id="@+id/textview21"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="Xml2Json Dön."
+								android:textSize="12sp"
+								android:textStyle="bold"
+								android:textColor="#000000" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear66"
+							android:layout_width="10dp"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/Dessert"
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview18"
+								android:layout_width="75dp"
+								android:layout_height="60dp"
+								android:src="@drawable/hexd"
+								android:scaleType="centerInside" />
+							<TextView
+								android:id="@+id/textview22"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="Hex-dec Mkn. "
+								android:textSize="12sp"
+								android:textStyle="bold"
+								android:textColor="#000000" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear68"
+							android:layout_width="10dp"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/Drink"
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent"
+							android:padding="8dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical">
+							<ImageView
+								android:id="@+id/imageview19"
+								android:layout_width="75dp"
+								android:layout_height="60dp"
+								android:src="@drawable/jdks"
+								android:scaleType="centerInside" />
+							<TextView
+								android:id="@+id/textview23"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="APK İmzalayıcı"
+								android:textSize="12sp"
+								android:textStyle="bold"
+								android:textColor="#000000" />
+						</LinearLayout>
+					</LinearLayout>
+				</HorizontalScrollView>
+				<LinearLayout
+					android:id="@+id/linear71"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="left"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview25"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Diğer Araçlar"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#000000" />
+				</LinearLayout>
+				<ScrollView
+					android:id="@+id/vscroll1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp">
+					<LinearLayout
+						android:id="@+id/linear72"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/pizaa1"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview20"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/flash"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear75"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview26"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Flashlight"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview29"
+									android:layout_width="wrap_content"
+									android:layout_height="match_parent"
+									android:padding="8dp"
+									android:text="Cihazınızın flashlightini açıp/kapama"
+									android:textSize="12sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear76"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/pizza2"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview21"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/sksl"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear78"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview30"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Sesten Yazıya"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview31"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Söylediğiniz şeyleri yazıya dönüştürün"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear79"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/pizza3"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview22"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/sesyazi"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear81"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview33"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Yazıdan Sese"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview34"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Girdiğiniz yazıyı sese Donüştürür"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear89"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/hatirlatici"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:background="#FFFFFF"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview25"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_2"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear87"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview40"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Java Class Method"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview41"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="girdiğiniz class importların methodlarını listeler"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear90"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/viewsorc"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:background="#FFFFFF"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview26"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_8"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear92"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview42"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="View-Source"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview43"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Web Sitelerin index sayfasındaki kodları gösterir"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear93"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/mp3"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview27"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_5"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear95"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview44"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Şifre Oluşturucu"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview45"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Seçeneklerinize göre şifre oluşturur"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear96"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/uygvers"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview28"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/xisl"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear98"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview46"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Uygulama Versiyonları"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview47"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Cihazınızdaki tüm uygulamaların versiyonlarını size verir"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear100"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/yazipdf"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview29"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_1"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear102"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview48"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Yazıdan PDF"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview49"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Girdiğiniz metni PDF dosyasına dönüştürür"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear105"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/resimpdf"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview30"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_6"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear107"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview50"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Resimden PDF"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview51"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Seçtiginiz resimleri PDF dosyasına dönüştürür"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear108"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/yazitkrar"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview31"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_4"
+								android:scaleType="centerInside" />
+							<LinearLayout
+								android:id="@+id/linear110"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview52"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="PDF Okuma"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview53"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Girdiğiniz dosya yolundaki pdfyi okuyun. "
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear111"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/ip"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview32"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_10"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear113"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview54"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="İP Sorgu"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview55"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Girdiğiniz ip adresinin bilgilerini verir"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear114"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/dirbulucu"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview33"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_8"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear116"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview56"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="DİR Bulucu"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview57"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="girdiğiniz web sitedeki sayfaları bulur (wordlist ile çalışır) "
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear117"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/qrkod"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview34"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/lld"
+								android:scaleType="fitCenter" />
+							<LinearLayout
+								android:id="@+id/linear119"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview58"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Web2Pdf "
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview59"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Web Sitelerini kolayca pdfye dönüştürün"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear120"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/sdkcihaz"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview37"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/kdksk"
+								android:scaleType="centerInside" />
+							<LinearLayout
+								android:id="@+id/linear127"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview64"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="SDK ve Cihaz Bilg."
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview65"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Cihazınızın SDK Versiyonu ve Android sürümünü öğrenin"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear128"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/yazibinary"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview38"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/binary"
+								android:scaleType="fitXY" />
+							<LinearLayout
+								android:id="@+id/linear130"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview66"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Yazıdan Binary"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview67"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Hem yazıyı hem binary kodu birbirine çevirmek"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear131"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/tgbot"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview39"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/tgbot"
+								android:scaleType="centerInside" />
+							<LinearLayout
+								android:id="@+id/linear133"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview68"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Telegram Bot Mesaj"
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview69"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Girdiğiniz bot tokeninden girdiğiniz kullanıcı idsine mesaj yollar"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linear138"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:padding="8dp"
+							android:orientation="horizontal" />
+						<LinearLayout
+							android:id="@+id/linear139"
+							android:layout_width="match_parent"
+							android:layout_height="130dp"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/imageview41"
+								android:layout_width="100dp"
+								android:layout_height="match_parent"
+								android:src="@drawable/pdf_2"
+								android:scaleType="fitCenter" />
+							<LinearLayout
+								android:id="@+id/linear140"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp"
+								android:gravity="right"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/textview74"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Java Kodları "
+									android:textSize="14sp"
+									android:textStyle="bold"
+									android:textColor="#000000" />
+								<TextView
+									android:id="@+id/textview75"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:padding="8dp"
+									android:text="Java Widget &amp; App Kod Blokları (145)"
+									android:textSize="10sp"
+									android:textColor="#616161" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+				</ScrollView>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
