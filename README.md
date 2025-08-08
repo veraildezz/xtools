@@ -1,103 +1,114 @@
 <p align="center">
-  <img src="banner.jpg" alt="XTools Screenshot" width="600"/>
+  <img src="banner.jpg" alt="Twibby Logo" width="180" height="180" style="border-radius: 20px;">
 </p>
 
-<h1 align="center">🧰 XTools</h1>
-
+<h1 align="center">🚀 Twibby</h1>
 <p align="center">
-  Çok amaçlı Android araç kutusu — Güçlü, Hızlı ve Tamamen Ücretsiz!
-</p>
-
-<p align="center">
-  🔐 📱 🎙️ 🧾 💡 📄 🌐 🔊
+  <strong>Android dünyasının her ihtiyaca cevap veren akıllı araç kutusu!</strong><br>
+  Geliştiriciden son kullanıcıya kadar herkesin cebinde bulunması gereken bir uygulama.
 </p>
 
 ---
 
-## 🎨 Uygulama Hakkında
+## 🌟 Twibby Nedir?
 
-**XTools**, Android cihazlar için geliştirilmiş, modern ve kullanıcı dostu bir **çok amaçlı yardımcı uygulamadır**. Minimalist tasarımı, **turuncu temalı şık arayüzü** ve kolay kullanımıyla öne çıkar. Tüm araçlar tek bir yerde toplanmıştır ve her özellik tam performansla çalışır.
-
-> 🧡 **XTools tamamen ücretsizdir** ve herhangi bir reklam ya da gizli ücret içermez.
-
----
-
-## 🚀 Özellikler
-
-### 🔐 Şifreleme & Güvenlik
-- **Encrypt/Decrypt**: Metinleri kolayca şifrele veya çöz.
-- **Şifre Üretici & Kontrol Etme**: Güçlü parolalar oluştur, güvenliğini kontrol et.
-- **APK İmzalama (V1 Signature)**: APK dosyalarını hızlıca imzala.
-- **Keystore Alias Üretici**: Geliştiriciler için hızlı alias oluşturucu.
-
-### 🗂️ Dosya & PDF Araçları
-- **Yazıdan PDF Oluşturma**: Girilen metni tek tıkla PDF'e çevir.
-- **Resimden PDF Yapma**: Seçilen görüntüleri PDF dosyasına dönüştür.
-- **PDF Okuyucu**: PDF dosyalarını kolayca aç ve oku.
-
-### 🎙️ Ses & Metin İşleme
-- **Ses Kaydedici**: Yüksek kaliteli ses kayıtları yap.
-- **Yazıdan Sese**: Metinleri ses dosyasına çevir (TTS).
-- **Sesten Yazıya**: Konuşmaları metne dönüştür (STT).
-
-### 🔢 Dönüştürücüler
-- **Hex/Dec/Bin Makinesi**: Sayılar arasında kolay dönüşüm.
-- **Yazıdan Binary'e**: Metni ikili koda çevir.
-
-### 🔔 Hatırlatıcı & Araçlar
-- **Hatırlatıcı / Alarm**: Görevlerini unutma, zamanında hatırlat.
-- **Fener (Flashlight)**: Telefonunun flaşını el feneri olarak kullan.
-
-### 🌐 Ağ & Web
-- **IP Sorgu**: Cihazın IP adresini öğren.
-- **Web View Source**: Web sitelerin kaynak kodlarını gör.
-- **Web Site Dizin Bulucu**: Gizli dizinleri tespit et.
-
-### 📲 Cihaz Bilgisi
-- **Yüklü Uygulamaları Gösterme & Versiyonları Öğrenme**
-- **Android SDK ve Sürüm Bilgisi**
+Twibby, **tek bir çatı altında onlarca farklı işlevi** bir araya getiren,  
+hem günlük kullanıcılar hem de profesyonel geliştiriciler için tasarlanmış **çok amaçlı Android yardımcı uygulamasıdır**.  
+Kimi zaman bir geliştirici aracına, kimi zaman bir PDF dönüştürücüsüne, kimi zaman ise sadece bir el fenerine ihtiyacınız olur…  
+İşte Twibby, **hepsini bir arada** sunar.  
+Modern tasarımı, yüksek performansı ve sürekli güncellenen özellikleriyle, cebinizde taşıdığınız **mobil bir İsviçre çakısı** gibidir.
 
 ---
 
-## 🖼️ UI / UX
+## 🔥 Öne Çıkan Özellikler
 
-- 🎨 **Modern ve göz yormayan turuncu temalı tasarım**
-- 🧭 Basit, sezgisel ve hızlı arayüz
-- 🚫 Reklamsız ve tamamen ücretsiz kullanım
-- 📱 Hafif ve batarya dostu
-
-<p align="center">
-  <img src="ui_preview.png" alt="UI Preview" width="600"/>
-</p>
+Aşağıda Twibby’nin sunduğu araçlar, **kategorilere ayrılmış** ve detaylı şekilde açıklanmıştır.  
+Her özellik, **hızlı çalışması**, **kolay kullanımı** ve **profesyonel sonuçlar vermesi** ile öne çıkar.
 
 ---
 
-## 📥 İndir & Kullan
-
-XTools şu anda Android için geliştirilmiştir. APK dosyasını indirin ve cihazınıza yükleyin:
-
-> **[🔗 APK İndir](https://github.com/kullaniciAdi/xtools/releases)**
-
----
-
-## 🤖 Telegram Bot Entegrasyonu
-
-Uygulama içinde bir Telegram botuna mesaj gönderme özelliği bulunmaktadır. Bot üzerinden hızlı erişim için kullanılabilir.
+### 🔐 Güvenlik ve Şifreleme Araçları
+- **Encrypt / Decrypt:** İster kişisel notlarınızı, ister önemli belgelerinizi şifreleyin; tek tıkla güvenli hale getirin.  
+  Çözme özelliği sayesinde verilerinize sadece sizin erişebilmeniz garanti altına alınır.
+- **Şifre Generator:** Güçlü, tahmin edilemez ve karmaşık şifreler oluşturur.  
+  İster 8 hanelik ister 32 hanelik olsun, tamamen rastgele üretilir.
+- **Yazıdan Binary:** Metinlerinizi ikili sisteme çevirerek veri işleme veya özel şifreleme yöntemleri için kullanın.
+- **IP Sorgu:** IP adresinizin detaylarını öğrenin; ülke, servis sağlayıcı ve konum bilgilerini anında görüntüleyin.
 
 ---
 
-## 📌 Katkıda Bulun
-
-Projeye katkıda bulunmak isterseniz pull request gönderebilir veya issue açabilirsiniz. Her türlü geri bildiriminiz bizim için değerli!
+### 🛠️ Geliştirici Dostu Araçlar
+- **XML → JSON Dönüştürücü:** XML verilerinizi, API’ler ve modern projelerde daha çok tercih edilen JSON formatına çevirin.  
+  Hızlı, hatasız ve çevrimdışı çalışır.
+- **Hex / Dex Makinesi:** Sayısal dönüşümleri kolayca yapın; hexadecimal, decimal gibi formatlar arasında geçiş yapın.
+- **Java Class Methodları:** Java geliştiricileri için hazır metod listesi. Kod yazarken zaman kazandırır.
+- **145 Adet Java Kod Bloğu:** Her biri test edilmiş, kullanıma hazır Java kod parçaları.  
+  Basit işlemlerden karmaşık yapılara kadar hepsi elinizin altında.
+- **APK İmzalayıcı:** V1, V2 ve V3 imzalama desteği ile uygulamalarınızı güvenli şekilde imzalayın.  
+  Google Play uyumluluğu garantilenmiştir.
+- **Web Site Source Görüntüleme:** Bir web sitesinin HTML kaynak kodunu anında görün.
+- **Web Site Directory Bulucu:** Web sitelerinin dizin yapılarını keşfedin.
+- **SDK ve Android Sürümü Gösterme:** Cihazınızın teknik bilgilerini öğrenin; uygulama uyumluluğunu test edin.
 
 ---
 
-## 📄 Lisans
-
-Bu proje **MIT Lisansı** ile lisanslanmıştır.
+### 📄 PDF ve Dönüştürme Araçları
+- **Yazıdan PDF:** Notlarınızı veya belgelerinizi PDF formatına dönüştürün.
+- **Resimden PDF:** Fotoğraflarınızı yüksek kalite PDF’e çevirin.
+- **Web Sitesini PDF Yapma:** İstediğiniz web sayfasını PDF olarak kaydedin. Çevrimdışı arşiv oluşturmak için mükemmel.
+- **PDF Okuma:** PDF belgelerini uygulama içinden hızlıca açın, sayfalar arasında gezinin.
 
 ---
 
-<p align="center">
-  🚀 Geliştirildi: <strong>XTools by VersaTech</strong>
-</p>
+### 📱 Cihaz Araçları
+- **Uygulama Listesi:** Cihazınızdaki tüm uygulamaları, versiyon bilgileri ve ek detaylarıyla listeleyin.
+- **Flashlight:** Tek tuşla güçlü el fenerinizi açın.
+- **Sesten Yazıya:** Sesli konuşmanızı anında yazıya dökerek notlarınızı kaydedin.
+- **Yazıdan Sese:** Metinleri doğal ses tonunda yüksek sesle okutun.
+
+---
+
+### 🤖 Entegrasyonlar
+- **Telegram Bot Mesaj Gönderme:** Telegram bot hesabınız üzerinden mesaj göndermenizi sağlar.
+
+---
+
+## 🆕 Son Güncelleme Notları (vX.X.X)
+
+> **Not:** Bu değişiklikler en güncel sürümde yer almaktadır.
+
+- 📌 **Drawer Menu** kaldırıldı → Arayüz çok daha sade, hızlı ve kullanışlı hale getirildi.  
+- 🎨 Yepyeni **Kayıt Olma** ve **Giriş Yapma** sayfaları tasarlandı; modern ve akıcı bir deneyim sunuyor.
+- 🔏 **APK Signer** artık **V2** ve **V3** imzalama şemalarını destekliyor.
+- 💻 **145 adet Java kod bloğu** eklendi.
+- 🌐 **Web2PDF** aracı eklendi; web sitelerini anında PDF olarak kaydedin.
+- 🎨 Tema rengi **#696BE6** olarak güncellendi.
+
+---
+
+## 💡 Açık Kaynak Gücü
+
+Twibby artık **tamamen açık kaynak**!  
+Bu, kodun tamamen şeffaf, incelenebilir ve geliştirilebilir olduğu anlamına geliyor.  
+İsteyen herkes projeye göz atabilir, katkı sağlayabilir veya kendi ihtiyaçlarına göre uyarlayabilir.  
+
+> Açık kaynak olması sayesinde, Twibby sadece bir uygulama değil, **geliştirici topluluğunun ortak bir eseri** haline geliyor.  
+> Bugün kullandığınız bir özellik, yarın başka bir katkıcı tarafından geliştirilmiş veya daha da iyileştirilmiş olabilir.  
+
+**Sen de katkı sağla:**  
+- 🛠️ Yeni özellik ekleyebilirsin.  
+- 🐞 Hataları düzeltebilirsin.  
+- 📖 Belgeleri geliştirebilirsin.  
+
+Katkıda bulunmak için bu repo’yu **fork**'la, değişikliklerini yap ve bir **pull request** gönder.  
+
+---
+
+## 📥 İndir & Kurulum
+- **Google Play** ve **GitHub Releases** üzerinden yakında yayında olacak.  
+- Yükledikten sonra tüm araçlara **çevrimdışı** erişebilirsiniz.
+
+---
+
+## 📌 Lisans
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylı bilgi için [LICENSE](LICENSE) dosyasına göz atabilirsiniz.
