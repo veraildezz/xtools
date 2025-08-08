@@ -73,7 +73,7 @@ Her özellik, **hızlı çalışması**, **kolay kullanımı** ve **profesyonel 
 
 ---
 
-## 🆕 Son Güncelleme Notları (vX.X.X)
+## 🆕 Son Güncelleme Notları (v2.0.1)
 
 > **Not:** Bu değişiklikler en güncel sürümde yer almaktadır.
 
